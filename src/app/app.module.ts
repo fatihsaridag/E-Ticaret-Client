@@ -14,7 +14,8 @@ import { UiModule } from './ui/ui.module';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    AdminModule ,UiModule,
+    AdminModule ,
+    UiModule,
     
   ],
   providers: [],
