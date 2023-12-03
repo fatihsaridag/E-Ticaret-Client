@@ -1,11 +1,6 @@
-import { Component } from '@angular/core';
-import { NgxSpinner, NgxSpinnerService } from 'ngx-spinner';
+import {  NgxSpinnerService } from 'ngx-spinner';
 
-@Component({
-  selector: 'app-base',
-  templateUrl: './base.component.html',
-  styleUrls: ['./base.component.scss']
-})
+
 export class BaseComponent {
   constructor(private spinner : NgxSpinnerService){
 
@@ -27,8 +22,6 @@ export class BaseComponent {
 
 
 }
-
-
 
 export enum SpinnerType {
   BallAtom = "s1" ,
